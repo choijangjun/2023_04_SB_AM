@@ -22,7 +22,7 @@
 <body>
 
 	<div class="h-20 flex container mx-auto text-3xl">
-		<a href="/" class="px-3 flex items-center"><span><img src="/resource/images/logo.png" style="width: 50%; height: auto;"/></span></a>
+		<a href="/" class="px-3 flex items-center image-box overflow-hidden mx-auto"><img class="object-cover w-full h-full" src="/resource/images/logo.png" /></a>
 		<div class="flex-grow"></div>
 		<ul class="flex">
 			<li class="hover:underline"><a class="h-full px-3 flex items-center" href="/usr/article/list?boardId=1"><span>NOTICE</span></a></li>
