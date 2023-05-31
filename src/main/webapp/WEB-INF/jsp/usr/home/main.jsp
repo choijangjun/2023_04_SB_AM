@@ -6,8 +6,12 @@
 	<section class="mt-8">
 		<div class="container mx-auto">
 			<div>
-				원하는 게시글을 작성하고 공유하세요.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ut voluptates atque quod tempore quaerat non cumque magni nihil eveniet molestiae eius earum ratione! Voluptate error minus magni quibusdam similique.
 			</div>
+			<div>
+				안녕하세요
+			</div>
+			<div><img src="/resource/images/google.png"/></div>
 			<span class="modal-exam">모달예시</span>
 			<br />
 			<span class="popUp-exam">팝업예시</span>
@@ -20,7 +24,19 @@
 				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aut ab atque porro aliquid consequuntur tempore! Consequatur magnam explicabo placeat quos commodi quam ad odit voluptatum culpa tempora necessitatibus quo?</div>
 				<button class="close-btn btn btn-active">CLOSE</button>				
 			</div>
-			<img src="/resource/images/logo.png"/>
+			
+			<div>
+				<form action="upload" method="POST" enctype="multipart/form-data">
+					<input type="file" name="file" />
+					<button>업로드</button>
+				</form>
+			</div>
+			
+			<div>
+				<a href="/usr/home/view">파일보러가기</a>
+			</div>
 		</div>
 	</section>
+	
+	
 <%@ include file="../common/foot.jsp" %>
